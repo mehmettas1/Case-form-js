@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.2/assets/css/docs.css" rel="stylesheet">
+  <title>Bootstrap Example</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="p-5 m-5 my-5 border-0 bd-example ">
+
+  <!-- Example Code -->
+
+<div class="container">
+  <div class="mb-3 ">
+    <label for="exampleFormControlInput1" class="form-label">Server IP</label>
+    <input type="email" class="form-control" id="exampleFormControlInput1">
+  </div>
+  <span>Envirement</span>
+  <div class="input-group">
+    <select class="form-select" id="inputGroupSelect04" aria-label="Example select with button addon">
+      <label class="form-label">Enviroment</label>
+      <option id="php" value="PHP">PHP</option>
+      <option id="wordpress" value="Wordpress">Wordpress</option>
+      <option id="laravel" value="Laravel">Laravel</option>
+    </select>
+  </div>
+  <span>Scenario</span>
+  <div class="form-check">
+    <input class="form-check-input scenario" type="radio" name="Scenario" id="A" value="A">
+    <label class="form-check-label" for="A">
+      A
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input scenario" type="radio" name="Scenario" id="B" value="B">
+    <label class="form-check-label" for="B">
+      B
+    </label>
+  </div>
+  <div class="form-check">
+    <input class="form-check-input scenario" type="radio" name="Scenario" id="C" value="C">
+    <label class="form-check-label" for="C">
+        C
+    </label>
+  </div>
+  <div class="mb-3 " style="display:none" id="textInput">
+    <label for="text" class="form-label">Scenario A ve PHP seçiliyse</label>
+    <input type="type" class="form-control" id="text">
+  </div>
+  <div class="mb-3" style="display:none" id="dateInput">
+    <label for=date" class="form-label">Date Field</label>
+    <input type="date" class="form-control" id="date">
+  </div>
+  <div   id="fileInput"  style="display:none">
+    <label for="file" class="form-label">File upload</label>
+    <div class="input-group mb-3">
+      <input type="file" class="form-control" data-classButton="btn btn-primary" data-input="true"
+      data-classIcon="icon-plus" data-buttonText="Gözat.." id="file">
+    </div>
+  </div>
+  <div  id="areaInput"  style="display:none">
+    <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+    <textarea class="form-control"  id="area" rows="3"></textarea>
+  </div>
+  <div class="mb-3 mt-3 " id="button"  style="display:none">
+    <div>
+      <button type="button" class="btn btn-success">Button</button>
+    </div>
+  </div>
+  
+
+
+
+
+
+    <!-- End Example Code -->
+    <script src="app.js"></script>
+
+
+
+</body>
+
+</html>
